@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(47, 47, 70);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.URL-input {
+    height: 30px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.convert-button {
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(197, 100, 36);
+    color: white;
+    cursor: pointer;
+}
