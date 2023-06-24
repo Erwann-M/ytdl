@@ -32,7 +32,7 @@ body {
     width: 100%;
 }
 
-.URL-input {
+.URL-input, .music_name {
     height: 30px;
     margin: 10px;
     width: 250px;
